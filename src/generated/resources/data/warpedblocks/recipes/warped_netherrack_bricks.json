@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "W": {
+      "item": "warpedblocks:warped_polished_netherrack"
+    }
+  },
+  "pattern": [
+    "WW",
+    "WW"
+  ],
+  "result": {
+    "count": 4,
+    "item": "warpedblocks:warped_netherrack_bricks"
+  },
+  "show_notification": true
+}

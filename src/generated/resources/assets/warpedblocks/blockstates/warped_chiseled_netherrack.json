@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "warpedblocks:block/warped_chiseled_netherrack_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "warpedblocks:block/warped_chiseled_netherrack"
+    },
+    "axis=z": {
+      "model": "warpedblocks:block/warped_chiseled_netherrack_horizontal",
+      "x": 90
+    }
+  }
+}

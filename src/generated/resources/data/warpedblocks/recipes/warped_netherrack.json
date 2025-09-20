@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "F": {
+      "item": "minecraft:warped_fungus"
+    },
+    "N": {
+      "item": "minecraft:netherrack"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "NFN",
+    "NNN"
+  ],
+  "result": {
+    "count": 8,
+    "item": "warpedblocks:warped_netherrack"
+  },
+  "show_notification": true
+}

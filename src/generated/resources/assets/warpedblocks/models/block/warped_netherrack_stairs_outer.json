@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "warpedblocks:block/warped_netherrack",
+    "side": "warpedblocks:block/warped_netherrack",
+    "top": "warpedblocks:block/warped_netherrack"
+  }
+}
