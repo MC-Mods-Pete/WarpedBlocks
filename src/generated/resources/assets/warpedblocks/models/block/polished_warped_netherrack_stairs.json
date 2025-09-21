@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "warpedblocks:block/polished_warped_netherrack",
+    "side": "warpedblocks:block/polished_warped_netherrack",
+    "top": "warpedblocks:block/polished_warped_netherrack"
+  }
+}

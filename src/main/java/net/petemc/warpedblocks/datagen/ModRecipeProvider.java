@@ -64,57 +64,57 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.WARPED_NETHERRACK.get()), has(ModBlocks.WARPED_NETHERRACK.get()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WARPED_CHISELED_NETHERRACK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_WARPED_NETHERRACK.get())
                 .pattern("W")
                 .pattern("W")
                 .define('W', ModBlocks.WARPED_NETHERRACK_SLAB.get())
                 .unlockedBy(getHasName(ModBlocks.WARPED_NETHERRACK.get()), has(ModBlocks.WARPED_NETHERRACK.get()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WARPED_POLISHED_NETHERRACK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_WARPED_NETHERRACK.get())
                 .pattern("WW")
                 .pattern("WW")
                 .define('W', ModBlocks.WARPED_NETHERRACK.get())
                 .unlockedBy(getHasName(ModBlocks.WARPED_NETHERRACK.get()), has(ModBlocks.WARPED_NETHERRACK.get()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WARPED_POLISHED_NETHERRACK_STAIRS.get(), 4)
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_WARPED_NETHERRACK_STAIRS.get(), 4)
                 .pattern("W  ")
                 .pattern("WW ")
                 .pattern("WWW")
-                .define('W', ModBlocks.WARPED_POLISHED_NETHERRACK.get())
-                .unlockedBy(getHasName(ModBlocks.WARPED_POLISHED_NETHERRACK.get()), has(ModBlocks.WARPED_POLISHED_NETHERRACK.get()))
+                .define('W', ModBlocks.POLISHED_WARPED_NETHERRACK.get())
+                .unlockedBy(getHasName(ModBlocks.POLISHED_WARPED_NETHERRACK.get()), has(ModBlocks.POLISHED_WARPED_NETHERRACK.get()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WARPED_POLISHED_NETHERRACK_SLAB.get(), 6)
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_WARPED_NETHERRACK_SLAB.get(), 6)
                 .pattern("WWW")
-                .define('W', ModBlocks.WARPED_POLISHED_NETHERRACK.get())
-                .unlockedBy(getHasName(ModBlocks.WARPED_POLISHED_NETHERRACK.get()), has(ModBlocks.WARPED_POLISHED_NETHERRACK.get()))
+                .define('W', ModBlocks.POLISHED_WARPED_NETHERRACK.get())
+                .unlockedBy(getHasName(ModBlocks.POLISHED_WARPED_NETHERRACK.get()), has(ModBlocks.POLISHED_WARPED_NETHERRACK.get()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WARPED_POLISHED_NETHERRACK_WALL.get(), 6)
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_WARPED_NETHERRACK_WALL.get(), 6)
                 .pattern("WWW")
                 .pattern("WWW")
-                .define('W', ModBlocks.WARPED_POLISHED_NETHERRACK.get())
-                .unlockedBy(getHasName(ModBlocks.WARPED_POLISHED_NETHERRACK.get()), has(ModBlocks.WARPED_POLISHED_NETHERRACK.get()))
+                .define('W', ModBlocks.POLISHED_WARPED_NETHERRACK.get())
+                .unlockedBy(getHasName(ModBlocks.POLISHED_WARPED_NETHERRACK.get()), has(ModBlocks.POLISHED_WARPED_NETHERRACK.get()))
                 .save(pWriter);
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WARPED_POLISHED_NETHERRACK_BUTTON.get())
-                .requires(ModBlocks.WARPED_POLISHED_NETHERRACK.get(),1)
-                .unlockedBy(getHasName(ModBlocks.WARPED_POLISHED_NETHERRACK.get()), has(ModBlocks.WARPED_POLISHED_NETHERRACK.get()))
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_WARPED_NETHERRACK_BUTTON.get())
+                .requires(ModBlocks.POLISHED_WARPED_NETHERRACK.get(),1)
+                .unlockedBy(getHasName(ModBlocks.POLISHED_WARPED_NETHERRACK.get()), has(ModBlocks.POLISHED_WARPED_NETHERRACK.get()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WARPED_POLISHED_NETHERRACK_PLATE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_WARPED_NETHERRACK_PLATE.get())
                 .pattern("WW")
-                .define('W', ModBlocks.WARPED_POLISHED_NETHERRACK.get())
-                .unlockedBy(getHasName(ModBlocks.WARPED_POLISHED_NETHERRACK.get()), has(ModBlocks.WARPED_POLISHED_NETHERRACK.get()))
+                .define('W', ModBlocks.POLISHED_WARPED_NETHERRACK.get())
+                .unlockedBy(getHasName(ModBlocks.POLISHED_WARPED_NETHERRACK.get()), has(ModBlocks.POLISHED_WARPED_NETHERRACK.get()))
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WARPED_NETHERRACK_BRICKS.get(), 4)
                 .pattern("WW")
                 .pattern("WW")
-                .define('W', ModBlocks.WARPED_POLISHED_NETHERRACK.get())
-                .unlockedBy(getHasName(ModBlocks.WARPED_POLISHED_NETHERRACK.get()), has(ModBlocks.WARPED_POLISHED_NETHERRACK.get()))
+                .define('W', ModBlocks.POLISHED_WARPED_NETHERRACK.get())
+                .unlockedBy(getHasName(ModBlocks.POLISHED_WARPED_NETHERRACK.get()), has(ModBlocks.POLISHED_WARPED_NETHERRACK.get()))
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WARPED_NETHERRACK_BRICK_STAIRS.get(), 4)
@@ -122,20 +122,20 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("WW ")
                 .pattern("WWW")
                 .define('W', ModBlocks.WARPED_NETHERRACK_BRICKS.get())
-                .unlockedBy(getHasName(ModBlocks.WARPED_POLISHED_NETHERRACK.get()), has(ModBlocks.WARPED_POLISHED_NETHERRACK.get()))
+                .unlockedBy(getHasName(ModBlocks.POLISHED_WARPED_NETHERRACK.get()), has(ModBlocks.POLISHED_WARPED_NETHERRACK.get()))
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WARPED_NETHERRACK_BRICK_SLAB.get(), 6)
                 .pattern("WWW")
                 .define('W', ModBlocks.WARPED_NETHERRACK_BRICKS.get())
-                .unlockedBy(getHasName(ModBlocks.WARPED_POLISHED_NETHERRACK.get()), has(ModBlocks.WARPED_POLISHED_NETHERRACK.get()))
+                .unlockedBy(getHasName(ModBlocks.POLISHED_WARPED_NETHERRACK.get()), has(ModBlocks.POLISHED_WARPED_NETHERRACK.get()))
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WARPED_NETHERRACK_BRICK_WALL.get(), 6)
                 .pattern("WWW")
                 .pattern("WWW")
                 .define('W', ModBlocks.WARPED_NETHERRACK_BRICKS.get())
-                .unlockedBy(getHasName(ModBlocks.WARPED_POLISHED_NETHERRACK.get()), has(ModBlocks.WARPED_POLISHED_NETHERRACK.get()))
+                .unlockedBy(getHasName(ModBlocks.POLISHED_WARPED_NETHERRACK.get()), has(ModBlocks.POLISHED_WARPED_NETHERRACK.get()))
                 .save(pWriter);
     }
 

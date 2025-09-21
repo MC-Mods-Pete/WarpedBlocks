@@ -1,24 +1,23 @@
 {
+  "creativetab.warpedblocks_tab": "Warped Blocks",
+
   "block.warpedblocks.warped_netherrack": "Warped Netherrack",
   "block.warpedblocks.warped_netherrack_stairs": "Warped Netherrack Stairs",
   "block.warpedblocks.warped_netherrack_slab": "Warped Netherrack Slab",
   "block.warpedblocks.warped_netherrack_wall": "Warped Netherrack Wall",
   "block.warpedblocks.warped_netherrack_button": "Warped Netherrack Button",
   "block.warpedblocks.warped_netherrack_pressure_plate": "Warped Netherrack Pressure Plate",
+  "block.warpedblocks.chiseled_warped_netherrack": "Chiseled Warped Netherrack",
 
-  "block.warpedblocks.warped_chiseled_netherrack": "Warped Chiseled Netherrack",
-
-  "block.warpedblocks.warped_polished_netherrack": "Warped Polished Netherrack",
-  "block.warpedblocks.warped_polished_netherrack_stairs": "Warped Polished Netherrack Stairs",
-  "block.warpedblocks.warped_polished_netherrack_slab": "Warped Polished Netherrack Slab",
-  "block.warpedblocks.warped_polished_netherrack_wall": "Warped Polished Netherrack Wall",
-  "block.warpedblocks.warped_polished_netherrack_button": "Warped Polished Netherrack Button",
-  "block.warpedblocks.warped_polished_netherrack_pressure_plate": "Warped Polished Netherrack Pressure Plate",
+  "block.warpedblocks.polished_warped_netherrack": "Polished Warped Netherrack",
+  "block.warpedblocks.polished_warped_netherrack_stairs": "Polished Warped Netherrack Stairs",
+  "block.warpedblocks.polished_warped_netherrack_slab": "Polished Warped Netherrack Slab",
+  "block.warpedblocks.polished_warped_netherrack_wall": "Polished Warped Netherrack Wall",
+  "block.warpedblocks.polished_warped_netherrack_button": "Polished Warped Netherrack Button",
+  "block.warpedblocks.polished_warped_netherrack_pressure_plate": "Polished Warped Netherrack Pressure Plate",
 
   "block.warpedblocks.warped_netherrack_bricks": "Warped Netherrack Bricks",
   "block.warpedblocks.warped_netherrack_brick_stairs": "Warped Netherrack Brick Stairs",
   "block.warpedblocks.warped_netherrack_brick_slab": "Warped Netherrack Brick Slab",
-  "block.warpedblocks.warped_netherrack_brick_wall": "Warped Netherrack Brick Wall",
-
-  "creativetab.warpedblocks_tab": "Warped Blocks"
+  "block.warpedblocks.warped_netherrack_brick_wall": "Warped Netherrack Brick Wall"
 }

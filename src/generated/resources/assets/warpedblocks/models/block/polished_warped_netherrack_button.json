@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "warpedblocks:block/polished_warped_netherrack"
+  }
+}

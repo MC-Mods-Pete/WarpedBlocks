@@ -1,34 +1,34 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_polished_warped_netherrack": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "warpedblocks:polished_warped_netherrack"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warped_netherrack": {
       "conditions": {
         "items": [
           {
             "items": [
-              "warpedblocks:polished_warped_netherrack"
+              "warpedblocks:warped_netherrack"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "warpedblocks:warped_netherrack_bricks"
-      },
-      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_polished_warped_netherrack",
+      "has_warped_netherrack",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "warpedblocks:warped_netherrack_bricks"
+      "warpedblocks:polished_warped_netherrack"
     ]
   },
   "sends_telemetry_event": false

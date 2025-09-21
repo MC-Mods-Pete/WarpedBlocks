@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "W": {
-      "item": "warpedblocks:polished_warped_netherrack"
+      "item": "warpedblocks:warped_netherrack"
     }
   },
   "pattern": [
@@ -11,8 +11,7 @@
     "WW"
   ],
   "result": {
-    "count": 4,
-    "item": "warpedblocks:warped_netherrack_bricks"
+    "item": "warpedblocks:polished_warped_netherrack"
   },
   "show_notification": true
 }

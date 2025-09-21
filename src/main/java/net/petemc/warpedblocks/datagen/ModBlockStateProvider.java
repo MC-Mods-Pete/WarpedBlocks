@@ -18,30 +18,32 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        // Warped blocks
         blockWithItem(ModBlocks.WARPED_NETHERRACK);
-        blockWithItem(ModBlocks.WARPED_POLISHED_NETHERRACK);
-        blockWithItem(ModBlocks.WARPED_NETHERRACK_BRICKS);
-        blockWithItem(ModBlocks.WARPED_STONE);
-
         stairsBlock(((StairBlock) ModBlocks.WARPED_NETHERRACK_STAIRS.get()), blockTexture(ModBlocks.WARPED_NETHERRACK.get()));
         slabBlock(((SlabBlock) ModBlocks.WARPED_NETHERRACK_SLAB.get()), blockTexture(ModBlocks.WARPED_NETHERRACK.get()), blockTexture(ModBlocks.WARPED_NETHERRACK.get()));
-        stairsBlock(((StairBlock) ModBlocks.WARPED_POLISHED_NETHERRACK_STAIRS.get()), blockTexture(ModBlocks.WARPED_POLISHED_NETHERRACK.get()));
-        slabBlock(((SlabBlock) ModBlocks.WARPED_POLISHED_NETHERRACK_SLAB.get()), blockTexture(ModBlocks.WARPED_POLISHED_NETHERRACK.get()), blockTexture(ModBlocks.WARPED_POLISHED_NETHERRACK.get()));
-        stairsBlock(((StairBlock) ModBlocks.WARPED_NETHERRACK_BRICK_STAIRS.get()), blockTexture(ModBlocks.WARPED_NETHERRACK_BRICKS.get()));
-        slabBlock(((SlabBlock) ModBlocks.WARPED_NETHERRACK_BRICK_SLAB.get()), blockTexture(ModBlocks.WARPED_NETHERRACK_BRICKS.get()), blockTexture(ModBlocks.WARPED_NETHERRACK_BRICKS.get()));
-
         wallBlock((WallBlock) ModBlocks.WARPED_NETHERRACK_WALL.get(), blockTexture(ModBlocks.WARPED_NETHERRACK.get()));
-        wallBlock((WallBlock) ModBlocks.WARPED_POLISHED_NETHERRACK_WALL.get(), blockTexture(ModBlocks.WARPED_POLISHED_NETHERRACK.get()));
-        wallBlock((WallBlock) ModBlocks.WARPED_NETHERRACK_BRICK_WALL.get(), blockTexture(ModBlocks.WARPED_NETHERRACK_BRICKS.get()));
-
         buttonBlock(((ButtonBlock) ModBlocks.WARPED_NETHERRACK_BUTTON.get()), blockTexture(ModBlocks.WARPED_NETHERRACK.get()));
         pressurePlateBlock(((PressurePlateBlock) ModBlocks.WARPED_NETHERRACK_PLATE.get()), blockTexture(ModBlocks.WARPED_NETHERRACK.get()));
-        buttonBlock(((ButtonBlock) ModBlocks.WARPED_POLISHED_NETHERRACK_BUTTON.get()), blockTexture(ModBlocks.WARPED_POLISHED_NETHERRACK.get()));
-        pressurePlateBlock(((PressurePlateBlock) ModBlocks.WARPED_POLISHED_NETHERRACK_PLATE.get()), blockTexture(ModBlocks.WARPED_POLISHED_NETHERRACK.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.CHISELED_WARPED_NETHERRACK.get()), blockTexture(ModBlocks.CHISELED_WARPED_NETHERRACK.get()),
+                ResourceLocation.fromNamespaceAndPath(WarpedBlocks.MOD_ID, "block/chiseled_warped_netherrack_top"));
+        blockItem(ModBlocks.CHISELED_WARPED_NETHERRACK);
 
-        axisBlock(((RotatedPillarBlock) ModBlocks.WARPED_CHISELED_NETHERRACK.get()), blockTexture(ModBlocks.WARPED_CHISELED_NETHERRACK.get()),
-                ResourceLocation.fromNamespaceAndPath(WarpedBlocks.MOD_ID, "block/warped_chiseled_netherrack_top"));
-        blockItem(ModBlocks.WARPED_CHISELED_NETHERRACK);
+        // Polished Warped blocks
+        blockWithItem(ModBlocks.POLISHED_WARPED_NETHERRACK);
+        stairsBlock(((StairBlock) ModBlocks.POLISHED_WARPED_NETHERRACK_STAIRS.get()), blockTexture(ModBlocks.POLISHED_WARPED_NETHERRACK.get()));
+        slabBlock(((SlabBlock) ModBlocks.POLISHED_WARPED_NETHERRACK_SLAB.get()), blockTexture(ModBlocks.POLISHED_WARPED_NETHERRACK.get()), blockTexture(ModBlocks.POLISHED_WARPED_NETHERRACK.get()));
+        wallBlock((WallBlock) ModBlocks.POLISHED_WARPED_NETHERRACK_WALL.get(), blockTexture(ModBlocks.POLISHED_WARPED_NETHERRACK.get()));
+        buttonBlock(((ButtonBlock) ModBlocks.POLISHED_WARPED_NETHERRACK_BUTTON.get()), blockTexture(ModBlocks.POLISHED_WARPED_NETHERRACK.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.POLISHED_WARPED_NETHERRACK_PLATE.get()), blockTexture(ModBlocks.POLISHED_WARPED_NETHERRACK.get()));
+
+        // Brick blocks
+        blockWithItem(ModBlocks.WARPED_NETHERRACK_BRICKS);
+        stairsBlock(((StairBlock) ModBlocks.WARPED_NETHERRACK_BRICK_STAIRS.get()), blockTexture(ModBlocks.WARPED_NETHERRACK_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.WARPED_NETHERRACK_BRICK_SLAB.get()), blockTexture(ModBlocks.WARPED_NETHERRACK_BRICKS.get()), blockTexture(ModBlocks.WARPED_NETHERRACK_BRICKS.get()));
+        wallBlock((WallBlock) ModBlocks.WARPED_NETHERRACK_BRICK_WALL.get(), blockTexture(ModBlocks.WARPED_NETHERRACK_BRICKS.get()));
+
+        blockWithItem(ModBlocks.WARPED_STONE);
     }
 
     private void saplingBlock(RegistryObject<Block> blockRegistryObject) {

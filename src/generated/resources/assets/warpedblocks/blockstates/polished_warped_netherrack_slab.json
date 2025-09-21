@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "warpedblocks:block/polished_warped_netherrack_slab"
+    },
+    "type=double": {
+      "model": "warpedblocks:block/polished_warped_netherrack"
+    },
+    "type=top": {
+      "model": "warpedblocks:block/polished_warped_netherrack_slab_top"
+    }
+  }
+}

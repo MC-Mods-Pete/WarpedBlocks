@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "warpedblocks:polished_warped_netherrack"
+    }
+  ],
+  "result": {
+    "item": "warpedblocks:polished_warped_netherrack_button"
+  }
+}

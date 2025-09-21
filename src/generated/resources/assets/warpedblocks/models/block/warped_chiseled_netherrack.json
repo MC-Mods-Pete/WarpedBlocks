@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "warpedblocks:block/warped_chiseled_netherrack_top",
-    "side": "warpedblocks:block/warped_chiseled_netherrack"
-  }
-}

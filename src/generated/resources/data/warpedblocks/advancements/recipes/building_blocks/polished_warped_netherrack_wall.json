@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "warpedblocks:warped_netherrack_bricks"
+        "recipe": "warpedblocks:polished_warped_netherrack_wall"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "warpedblocks:warped_netherrack_bricks"
+      "warpedblocks:polished_warped_netherrack_wall"
     ]
   },
   "sends_telemetry_event": false

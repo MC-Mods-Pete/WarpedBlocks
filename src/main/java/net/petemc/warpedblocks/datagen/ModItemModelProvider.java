@@ -49,11 +49,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(ModBlocks.WARPED_NETHERRACK_PLATE);
 
         // Warped polished netherrack
-        evenSimplerBlockItem(ModBlocks.WARPED_POLISHED_NETHERRACK_STAIRS);
-        evenSimplerBlockItem(ModBlocks.WARPED_POLISHED_NETHERRACK_SLAB);
-        wallItem(ModBlocks.WARPED_POLISHED_NETHERRACK_WALL, ModBlocks.WARPED_POLISHED_NETHERRACK);
-        buttonItem(ModBlocks.WARPED_POLISHED_NETHERRACK_BUTTON, ModBlocks.WARPED_POLISHED_NETHERRACK);
-        evenSimplerBlockItem(ModBlocks.WARPED_POLISHED_NETHERRACK_PLATE);
+        evenSimplerBlockItem(ModBlocks.POLISHED_WARPED_NETHERRACK_STAIRS);
+        evenSimplerBlockItem(ModBlocks.POLISHED_WARPED_NETHERRACK_SLAB);
+        wallItem(ModBlocks.POLISHED_WARPED_NETHERRACK_WALL, ModBlocks.POLISHED_WARPED_NETHERRACK);
+        buttonItem(ModBlocks.POLISHED_WARPED_NETHERRACK_BUTTON, ModBlocks.POLISHED_WARPED_NETHERRACK);
+        evenSimplerBlockItem(ModBlocks.POLISHED_WARPED_NETHERRACK_PLATE);
 
         // Warped netherrack bricks
         evenSimplerBlockItem(ModBlocks.WARPED_NETHERRACK_BRICK_STAIRS);

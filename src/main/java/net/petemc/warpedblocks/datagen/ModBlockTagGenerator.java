@@ -23,11 +23,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                      ModBlocks.WARPED_NETHERRACK_STAIRS.get(),
                      ModBlocks.WARPED_NETHERRACK_SLAB.get(),
                      ModBlocks.WARPED_NETHERRACK_PLATE.get(),
-                     ModBlocks.WARPED_CHISELED_NETHERRACK.get(),
-                     ModBlocks.WARPED_POLISHED_NETHERRACK.get(),
-                     ModBlocks.WARPED_POLISHED_NETHERRACK_STAIRS.get(),
-                     ModBlocks.WARPED_POLISHED_NETHERRACK_SLAB.get(),
-                     ModBlocks.WARPED_POLISHED_NETHERRACK_PLATE.get(),
+                     ModBlocks.CHISELED_WARPED_NETHERRACK.get(),
+                     ModBlocks.POLISHED_WARPED_NETHERRACK.get(),
+                     ModBlocks.POLISHED_WARPED_NETHERRACK_STAIRS.get(),
+                     ModBlocks.POLISHED_WARPED_NETHERRACK_SLAB.get(),
+                     ModBlocks.POLISHED_WARPED_NETHERRACK_PLATE.get(),
                      ModBlocks.WARPED_NETHERRACK_BRICKS.get(),
                      ModBlocks.WARPED_NETHERRACK_BRICK_STAIRS.get(),
                      ModBlocks.WARPED_NETHERRACK_BRICK_SLAB.get(),
@@ -35,7 +35,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
         this.tag(BlockTags.WALLS)
                 .add(ModBlocks.WARPED_NETHERRACK_WALL.get(),
-                     ModBlocks.WARPED_POLISHED_NETHERRACK_WALL.get(),
+                     ModBlocks.POLISHED_WARPED_NETHERRACK_WALL.get(),
                      ModBlocks.WARPED_NETHERRACK_BRICK_WALL.get());
     }
 }

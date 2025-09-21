@@ -28,14 +28,14 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.WARPED_NETHERRACK_WALL.get());
         this.dropSelf(ModBlocks.WARPED_NETHERRACK_BUTTON.get());
         this.dropSelf(ModBlocks.WARPED_NETHERRACK_PLATE.get());
-        this.dropSelf(ModBlocks.WARPED_CHISELED_NETHERRACK.get());
+        this.dropSelf(ModBlocks.CHISELED_WARPED_NETHERRACK.get());
 
-        this.dropSelf(ModBlocks.WARPED_POLISHED_NETHERRACK.get());
-        this.dropSelf(ModBlocks.WARPED_POLISHED_NETHERRACK_STAIRS.get());
-        this.dropSelf(ModBlocks.WARPED_POLISHED_NETHERRACK_SLAB.get());
-        this.dropSelf(ModBlocks.WARPED_POLISHED_NETHERRACK_WALL.get());
-        this.dropSelf(ModBlocks.WARPED_POLISHED_NETHERRACK_BUTTON.get());
-        this.dropSelf(ModBlocks.WARPED_POLISHED_NETHERRACK_PLATE.get());
+        this.dropSelf(ModBlocks.POLISHED_WARPED_NETHERRACK.get());
+        this.dropSelf(ModBlocks.POLISHED_WARPED_NETHERRACK_STAIRS.get());
+        this.dropSelf(ModBlocks.POLISHED_WARPED_NETHERRACK_SLAB.get());
+        this.dropSelf(ModBlocks.POLISHED_WARPED_NETHERRACK_WALL.get());
+        this.dropSelf(ModBlocks.POLISHED_WARPED_NETHERRACK_BUTTON.get());
+        this.dropSelf(ModBlocks.POLISHED_WARPED_NETHERRACK_PLATE.get());
 
         this.dropSelf(ModBlocks.WARPED_NETHERRACK_BRICKS.get());
         this.dropSelf(ModBlocks.WARPED_NETHERRACK_BRICK_STAIRS.get());

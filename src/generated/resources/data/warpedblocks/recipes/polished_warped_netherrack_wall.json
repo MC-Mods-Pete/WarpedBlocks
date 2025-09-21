@@ -7,12 +7,12 @@
     }
   },
   "pattern": [
-    "WW",
-    "WW"
+    "WWW",
+    "WWW"
   ],
   "result": {
-    "count": 4,
-    "item": "warpedblocks:warped_netherrack_bricks"
+    "count": 6,
+    "item": "warpedblocks:polished_warped_netherrack_wall"
   },
   "show_notification": true
 }

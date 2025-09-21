@@ -1,28 +1,28 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "warpedblocks:warped_netherrack_brick_slab"
-      },
-      "trigger": "minecraft:recipe_unlocked"
-    },
-    "has_warped_polished_netherrack": {
+    "has_polished_warped_netherrack": {
       "conditions": {
         "items": [
           {
             "items": [
-              "warpedblocks:warped_polished_netherrack"
+              "warpedblocks:polished_warped_netherrack"
             ]
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "warpedblocks:warped_netherrack_brick_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_warped_polished_netherrack",
+      "has_polished_warped_netherrack",
       "has_the_recipe"
     ]
   ],

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "warpedblocks:block/polished_warped_netherrack"
+  }
+}
